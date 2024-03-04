@@ -4,7 +4,7 @@
         "type": "tab",
         "label": "Flow 1",
         "disabled": false,
-        "info": "modbus tcp example",
+        "info": "#node-red-contrib-modbus example for the following:\n1. Use Modbus-Server to set up a modbus slave\n2. Use Modbus-Flex-Getter to perform a modbus read function\n3. Use Modbus-Flex-Write to perform a modbus write function",
         "env": []
     },
     {
@@ -12,7 +12,7 @@
         "type": "tab",
         "label": "Flow 2",
         "disabled": false,
-        "info": "modbus tcp read from pymodbus\n\n*unitid does not seem to affect fc03",
+        "info": "# Reading from a pymodbus server\n1. Ensure pymodbus server running in terminal\n2. Use Modbus-Flex-Getter to perform a read function",
         "env": []
     },
     {
@@ -20,7 +20,7 @@
         "type": "tab",
         "label": "Flow 3",
         "disabled": false,
-        "info": "Test connection with Delta batteries\n\nESS Controller\nserver_ip_addr 192.168.3.10\nport 502\nunit_id 1\nread_holding_regs_fc 03\nwrite_single_reg_fc 06\n\nto confirm\n3. type of connection?\n-wifi\n-rj45 (ethernet)\n4. WAN signal range?\n5. security measures?\n-firewall access\n-encryption\n-authentication, certs etc\n-access control lists (ACL) or whitelists\n-intrusion detection and prevention systems (IDPS)\n-physical securities\n-logs",
+        "info": "#Test connection with Delta ESS controller\n\nESS Controller information:\nserver_ip_addr 192.168.3.10\nport 502\nunit_id 1\nread_holding_regs_fc 03\nwrite_single_reg_fc 06",
         "env": []
     },
     {
@@ -398,7 +398,7 @@
         "z": "b03a57dcce6675b9",
         "name": "write vector length 2 at 1",
         "info": "",
-        "x": 250,
+        "x": 270,
         "y": 360,
         "wires": []
     },
@@ -416,9 +416,9 @@
         "id": "961ff879a8e0c207",
         "type": "comment",
         "z": "b03a57dcce6675b9",
-        "name": "modbus tcp/ip master",
+        "name": "modbus tcp/ip slave",
         "info": "",
-        "x": 260,
+        "x": 250,
         "y": 40,
         "wires": []
     },
@@ -643,7 +643,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 860,
-        "y": 280,
+        "y": 300,
         "wires": []
     }
 ]
