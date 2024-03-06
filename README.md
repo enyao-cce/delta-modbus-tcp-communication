@@ -7,5 +7,5 @@ delta-modbus-tcp-communication
 
 This is a simple proof-of-concept which reads modbus values from a Delta ESS Controller. The code shows how to do the following:
 
-* Read/Write using node-red-contrib-modbus (in Flow 1)
-* Configuring node-red-contrib-modbus to read values from the Delta ESS Controller (in Flow 3)
+* Read/Write using the node-red-contrib-modbus library (in Flow 1)
+* Configuration using the node-red-contrib-modbus library to read values from the Delta ESS Controller (in Flow 3)
