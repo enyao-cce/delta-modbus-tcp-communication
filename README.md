@@ -1,7 +1,7 @@
 delta-modbus-tcp-communication
 ==============================
 
-## Read from Delta Energy Storage system (ESS) Controller using Node RED flows
+## Read ModbusTCP data from Delta Energy Storage system (ESS) Controller using Node RED flows
 
 ### About
 
