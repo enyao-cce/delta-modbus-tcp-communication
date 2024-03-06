@@ -1,9 +1,11 @@
 delta-modbus-tcp-communication
 ==============================
 
-to facilitate communication with delta ESS controller
+## Read from Delta Energy Storage system (ESS) Controller using Node RED flows
 
 ### About
 
-This is your project's README.md file. It helps users understand what your
-project does, how to use it and anything else they may need to know.
+This is a simple proof-of-concept which reads modbus values from a Delta ESS Controller. The code shows how to do the following:
+
+* Read/Write using node-red-contrib-modbus (in Flow 1)
+* Configuring node-red-contrib-modbus to read values from the Delta ESS Controller (in Flow 3)
